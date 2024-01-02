@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Palmer Penguin Classification Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -53,6 +53,16 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .s1 { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Single */
 .highlight .ss { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Symbol */
 .highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
+.footer{
+    background-color: rgb(1, 1, 1, 50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+  }
   </style>
 <style type="text/css">
 /*-----------------------------------------------------------------------------
@@ -7472,9 +7482,46 @@ a.anchor-link {
     display: inline-block;
     white-space: normal;
   }
+  /* .header1 {
+    background: url("dataset-cover.jpg") center/cover;
+    /* background-color: rgb(1, 1, 1, 50%); 
+    color: black; 
+    text-align: center;
+    padding: 20px;
+    font-size:larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+} */
+.topper {
+    /* background: url("dataset-cover.jpg") center/cover; */
+    background-color: rgb(1, 1, 1, 50%);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-size:larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img{
+  max-width: 100%;
+  height: auto;
+}
 </style>
 <!-- End of mermaid configuration --></head>
-<body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+<body class="jp-Notebook" data-jp-theme-light="flase" data-jp-theme-name="JupyterLab Dark">  
+  <img class = "img" src="dataset-cover.jpg" alt="Data Set Banner Here">
+  <div class = "topper">
+    <h1>Palmer Penguin Classification Project Notebook</h1>
+    <p><h3>Project undertaken by Digant Singh, 2024</h3></p>
+  </div>
 <main>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7482,7 +7529,6 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Project undertaken by Digant Singh, 2024</p>
 </div>
 </div>
 </div>
@@ -8376,12 +8422,10 @@ Exploring the integration of our classification model with real-time monitoring 
 </div>
 </div>
 </main>
-<footer>
+<footer class = "footer">
   &copy; Digant Singh <br>
-  2023<br>
+  2024<br>
   22bcs037@iiitdwd.ac.in<br>
-  digant.agc@gmail.com<br>
-  This Webpage, like my life, is a work in progress
 </footer>
 </body>
 </html>
