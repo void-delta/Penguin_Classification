@@ -1,0 +1,36 @@
+.topper {
+    /* background: url("dataset-cover.jpg") center/cover; */
+    background-color: rgb(1, 1, 1, 50%);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-size:larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img{
+  max-width: 100%;
+  height: auto;
+}
+
+<img class = "img" src="dataset-cover.jpg" alt="Data Set Banner Here">
+  <div class = "topper">
+    <h1>Palmer Penguin Classification Project Notebook</h1>
+    <p><h3>Project undertaken by Digant Singh, 2024</h3></p>
+  </div>
+
+<footer class = "footer">
+  &copy; Digant Singh <br>
+  2024<br>
+  22bcs037@iiitdwd.ac.in<br>
+</footer>
+
+.footer{
+    background-color: rgb(1, 1, 1, 50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+  }
